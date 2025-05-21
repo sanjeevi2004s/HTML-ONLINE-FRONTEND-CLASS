@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tour Booking Form</title>
+</head>
+<body>
+    <h1>Tour Booking Form</h1>
+    <p><strong>Note:</strong> * Mandatory Fields</p>
+    <form>
+        <label for="fullname">Full name*:</label><br>
+        <input type="text" id="fullname" name="fullname"><br><br>
+
+        <label for="email">Email address*:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="package">Select Tour Package*:</label><br>
+        <select id="package" name="package">
+            <option>South India</option>
+            <option>North India</option>
+            <option>West India</option>
+            <option>East India</option>
+        </select><br><br>
+
+        <label for="arrival">Arrival date*:</label><br>
+        <input type="date" id="arrival" name="arrival"><br><br>
+
+        <label for="persons">Number of persons*:</label><br>
+        <input type="number" id="persons" name="persons"><br><br>
+
+        <p>What would you want to avail?*</p>
+        <input type="checkbox" id="boarding" name="service" value="Boarding">
+        <label for="boarding">Boarding</label><br>
+        <input type="checkbox" id="food" name="service" value="Food">
+        <label for="food">Food</label><br>
+        <input type="checkbox" id="sight" name="service" value="Sight seeing">
+        <label for="sight">Sight seeing</label><br><br>
+
+        <p>Terms and conditions*</p>
+        <input type="radio" id="agree" name="terms" value="agree">
+        <label for="agree">I agree</label>
+        <input type="radio" id="disagree" name="terms" value="disagree">
+        <label for="disagree">I disagree</label><br><br>
+
+        <button type="submit">BOOK NOW</button>
+    </form>
+</body>
+</html>
